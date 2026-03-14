@@ -1,0 +1,4 @@
+# KiCad Symbol Table
+(sym_lib_table
+  (lib (name "PowerLossHeatCreepArrester")(type "KiCad")(uri "${KIPRJMOD}/libraries/PowerLossHeatCreepArrester.kicad_sym")(options "")(descr "Project-specific symbols"))
+)
