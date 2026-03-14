@@ -1,0 +1,4 @@
+# KiCad Footprint Table
+(fp_lib_table
+  (lib (name "PowerLossHeatCreepArrester")(type "KiCad")(uri "${KIPRJMOD}/footprints/PowerLossHeatCreepArrester.pretty")(options "")(descr "Project-specific footprints"))
+)

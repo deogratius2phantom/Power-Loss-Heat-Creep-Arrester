@@ -1,0 +1,44 @@
+# KiCad generated files
+*.kicad_prl
+*.000
+*.bak
+*-backups/
+*_autosave*
+*.lck
+_autosave-*
+
+# KiCad netlist (generated, not source)
+*.net
+
+# KiCad simulation files
+*.raw
+*.cir
+
+# KiCad BOM export (generated)
+*.xml
+
+# Gerber and fabrication outputs (generated — commit only when ready to manufacture)
+fabrication/gerbers/*.gbr
+fabrication/gerbers/*.drl
+fabrication/gerbers/*.dxf
+fabrication/gerbers/*.gbrjob
+fabrication/bom/*.csv
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux files
+*~
+
+# Editor files
+.vscode/
+*.swp
+*.swo
