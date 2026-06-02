@@ -24,6 +24,9 @@ fabrication/gerbers/*.dxf
 fabrication/gerbers/*.gbrjob
 fabrication/bom/*.csv
 
+# VSCode Local History extension
+.history/
+
 # macOS files
 .DS_Store
 .AppleDouble
