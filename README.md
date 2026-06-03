@@ -130,9 +130,25 @@ To regenerate from source in KiCad PCB Editor (`pcbnew`):
 
 ---
 
+## Documentation
+
+Full project documentation is in the [**GitHub Wiki**](https://github.com/deogratius2phantom/Power-Loss-Heat-Creep-Arrester/wiki):
+
+| Wiki Page | Contents |
+|-----------|----------|
+| [Design Rationale](https://github.com/deogratius2phantom/Power-Loss-Heat-Creep-Arrester/wiki/Design-Rationale) | Why BL-5C, MT3608, TP4056, LM393 were chosen |
+| [Circuit Theory](https://github.com/deogratius2phantom/Power-Loss-Heat-Creep-Arrester/wiki/Circuit-Theory) | How each circuit block works |
+| [Bill of Materials & Sourcing](https://github.com/deogratius2phantom/Power-Loss-Heat-Creep-Arrester/wiki/Bill-of-Materials-and-Sourcing) | Full component list with supplier links |
+| [Assembly Guide](https://github.com/deogratius2phantom/Power-Loss-Heat-Creep-Arrester/wiki/Assembly-Guide) | Step-by-step soldering instructions |
+| [Testing & Calibration](https://github.com/deogratius2phantom/Power-Loss-Heat-Creep-Arrester/wiki/Testing-and-Calibration) | Verifying and tuning the circuit |
+| [Troubleshooting](https://github.com/deogratius2phantom/Power-Loss-Heat-Creep-Arrester/wiki/Troubleshooting) | Common issues and fixes |
+| [Version History](https://github.com/deogratius2phantom/Power-Loss-Heat-Creep-Arrester/wiki/Version-History) | Board revision log |
+
+---
+
 ## Contributing
 
-Contributions are welcome. Please open an issue or pull request to discuss changes before submitting.
+Contributions are welcome. See the [Contributing wiki page](https://github.com/deogratius2phantom/Power-Loss-Heat-Creep-Arrester/wiki/Contributing) for the full workflow. Please open an issue to discuss changes before submitting a pull request.
 
 ---
 
