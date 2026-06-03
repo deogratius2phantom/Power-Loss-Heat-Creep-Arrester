@@ -124,7 +124,7 @@ To regenerate from source in KiCad PCB Editor (`pcbnew`):
 |-----------|-------|
 | Supply voltage | 24 V |
 | Target load | Hotend / part-cooling fan |
-| Backup duration | Configurable via RC timer |
+| Fan activation | Only when hotend > 50 °C (adjustable via RV1) |
 | PCB layers | 2 |
 | Board thickness | 1.6 mm |
 
