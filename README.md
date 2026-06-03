@@ -21,15 +21,26 @@ This circuit detects the power loss event and uses a backup energy source (e.g. 
 
 ---
 
+## Board Preview
+
+**Front (component side)**
+![Board Front](docs/Screenshot%202026-06-02%20at%2018.37.28.png)
+
+**Back**
+![Board Back](docs/Screenshot%202026-06-02%20at%2018.37.43.png)
+
+---
+
 ## Repository Structure
 
 ```
 Power-Loss-Heat-Creep-Arrester/
-├── PowerLossHeatCreepArrester.kicad_pro   # KiCad project file
-├── PowerLossHeatCreepArrester.kicad_sch   # Schematic
-├── PowerLossHeatCreepArrester.kicad_pcb   # PCB layout
-├── sym-lib-table                          # Project symbol library table
-├── fp-lib-table                           # Project footprint library table
+├── PowerLossHeatCreepArrester_v1.0/           # KiCad v1.0 project (main design)
+│   ├── PowerLossHeatCreepArrester_v1.0.kicad_pro   # KiCad project file
+│   ├── PowerLossHeatCreepArrester_v1.0.kicad_sch   # Schematic
+│   ├── PowerLossHeatCreepArrester_v1.0.kicad_pcb   # PCB layout
+│   ├── board_v1.step                               # 3D board export (v1)
+│   └── board_v11.step                              # 3D board export (v11)
 ├── libraries/
 │   └── PowerLossHeatCreepArrester.kicad_sym   # Custom schematic symbols
 ├── footprints/
@@ -38,7 +49,7 @@ Power-Loss-Heat-Creep-Arrester/
 ├── fabrication/
 │   ├── gerbers/                           # Gerber files for PCB manufacture
 │   └── bom/                              # Bill of Materials exports
-├── docs/                                 # Additional documentation & images
+├── docs/                                 # Documentation & board images
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -56,7 +67,7 @@ Power-Loss-Heat-Creep-Arrester/
 
 1. Clone or download this repository.
 2. Open KiCad and select **File → Open Project**.
-3. Navigate to the repository folder and open `PowerLossHeatCreepArrester.kicad_pro`.
+3. Navigate to `PowerLossHeatCreepArrester_v1.0/` and open `PowerLossHeatCreepArrester_v1.0.kicad_pro`.
 4. The schematic (`*.kicad_sch`) and PCB layout (`*.kicad_pcb`) will be available from the KiCad project manager.
 
 ### Generating Fabrication Files
