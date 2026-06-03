@@ -29,27 +29,40 @@ This circuit detects the power loss event and uses a backup energy source (e.g. 
 **Back**
 ![Board Back](docs/Screenshot%202026-06-02%20at%2018.37.43.png)
 
+📄 Full schematic & layout documentation: [PowerLossHeatCreepArrester.pdf](docs/PowerLossHeatCreepArrester.pdf)
+
 ---
 
 ## Repository Structure
 
 ```
 Power-Loss-Heat-Creep-Arrester/
-├── PowerLossHeatCreepArrester_v1.0/           # KiCad v1.0 project (main design)
-│   ├── PowerLossHeatCreepArrester_v1.0.kicad_pro   # KiCad project file
-│   ├── PowerLossHeatCreepArrester_v1.0.kicad_sch   # Schematic
-│   ├── PowerLossHeatCreepArrester_v1.0.kicad_pcb   # PCB layout
-│   ├── board_v1.step                               # 3D board export (v1)
-│   └── board_v11.step                              # 3D board export (v11)
+├── PowerLossHeatCreepArrester_v1.0/                      # KiCad v1.0 project (main design)
+│   ├── PowerLossHeatCreepArrester_v1.0.kicad_pro         # KiCad project file
+│   ├── PowerLossHeatCreepArrester_v1.0.kicad_sch         # Schematic
+│   ├── PowerLossHeatCreepArrester_v1.0.kicad_pcb         # PCB layout
+│   ├── board_v1.step                                     # 3D board export (v1)
+│   ├── board_v11.step                                    # 3D board export (v11)
+│   ├── .step                                             # Additional 3D export
+│   ├── fabrication-toolkit-options.json                  # KiCad fabrication toolkit config
+│   └── production/                                       # Ready-to-order production files
+│       ├── PowerLossHeatCreepArrester_v1.0.zip           # Gerber bundle for PCB fab
+│       ├── bom.csv                                       # Bill of Materials
+│       ├── designators.csv                               # Component designators
+│       ├── netlist.ipc                                   # IPC netlist
+│       └── positions.csv                                 # Pick-and-place positions
 ├── libraries/
-│   └── PowerLossHeatCreepArrester.kicad_sym   # Custom schematic symbols
+│   └── PowerLossHeatCreepArrester.kicad_sym              # Custom schematic symbols
 ├── footprints/
-│   └── PowerLossHeatCreepArrester.pretty/     # Custom PCB footprints
-│       └── *.kicad_mod
+│   └── PowerLossHeatCreepArrester.pretty/                # Custom PCB footprints
 ├── fabrication/
-│   ├── gerbers/                           # Gerber files for PCB manufacture
-│   └── bom/                              # Bill of Materials exports
-├── docs/                                 # Documentation & board images
+│   ├── gerbers/                                          # Gerber files for PCB manufacture
+│   └── bom/                                             # Bill of Materials exports
+├── docs/                                                 # Documentation & board images
+│   ├── PowerLossHeatCreepArrester.pdf                   # Full schematic & layout PDF
+│   ├── Screenshot 2026-06-02 at 18.37.28.png            # Board front view
+│   └── Screenshot 2026-06-02 at 18.37.43.png            # Board back view
+├── Heat Creep Arrester.pdf                               # Project overview document
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -72,12 +85,21 @@ Power-Loss-Heat-Creep-Arrester/
 
 ### Generating Fabrication Files
 
-From within PCB Editor (`pcbnew`):
+Ready-to-order production files are in `PowerLossHeatCreepArrester_v1.0/production/`:
 
-1. Go to **File → Fabrication Outputs → Gerbers**.
-2. Set the output directory to `fabrication/gerbers/`.
-3. Generate the drill file via **File → Fabrication Outputs → Drill Files**.
-4. Export the BOM via **File → Fabrication Outputs → BOM** to `fabrication/bom/`.
+| File | Description |
+|------|-------------|
+| `PowerLossHeatCreepArrester_v1.0.zip` | Gerber bundle — upload directly to your PCB fab |
+| `bom.csv` | Bill of Materials |
+| `designators.csv` | Component designator mapping |
+| `netlist.ipc` | IPC-D-356 netlist |
+| `positions.csv` | Pick-and-place positions for SMT assembly |
+
+To regenerate from source in KiCad PCB Editor (`pcbnew`):
+
+1. Go to **File → Fabrication Outputs → Gerbers** → output to `fabrication/gerbers/`.
+2. Generate the drill file via **File → Fabrication Outputs → Drill Files**.
+3. Export the BOM via **File → Fabrication Outputs → BOM** → output to `fabrication/bom/`.
 
 ---
 
