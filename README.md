@@ -16,6 +16,7 @@ This circuit detects the power loss event and uses a backup energy source (e.g. 
 
 - Detects main power loss and triggers a timed backup fan drive
 - Designed to supply 24 V to a standard 3D printer part-cooling or hotend fan
+- Powered by a **Nokia BL-5C 3.7 V Li-ion battery** — widely available, compact, and plug-in replaceable
 - Compact PCB footprint suitable for mounting inside a printer enclosure
 - Fully open hardware (CC0 1.0 Universal licence)
 
@@ -89,7 +90,13 @@ Power-Loss-Heat-Creep-Arrester/
 
 ### Interactive BOM (Manual Assembly)
 
-Open `PowerLossHeatCreepArrester_v1.0/bom/manual_assembly_ibom.html` in any browser. It provides an interactive board view where you can click each component to highlight its placement — ideal for hand-soldering.
+Open the interactive BOM directly in your browser — no setup needed:
+
+**🔗 [View Interactive BOM online](https://htmlpreview.github.io/?https://github.com/deogratius2phantom/Power-Loss-Heat-Creep-Arrester/blob/main/PowerLossHeatCreepArrester_v1.0/bom/manual_assembly_ibom.html)**
+
+Or open the file locally: `PowerLossHeatCreepArrester_v1.0/bom/manual_assembly_ibom.html`
+
+It provides an interactive board view where you can click each component to highlight its placement — ideal for hand-soldering.
 
 ### Production Files
 
