@@ -45,6 +45,8 @@ Power-Loss-Heat-Creep-Arrester/
 │   ├── board_v11.step                                    # 3D board export (v11)
 │   ├── .step                                             # Additional 3D export
 │   ├── fabrication-toolkit-options.json                  # KiCad fabrication toolkit config
+│   ├── bom/                                              # Bill of Materials & assembly aids
+│   │   └── manual_assembly_ibom.html                    # Interactive BOM for manual assembly
 │   └── production/                                       # Ready-to-order production files
 │       ├── PowerLossHeatCreepArrester_v1.0.zip           # Gerber bundle for PCB fab
 │       ├── bom.csv                                       # Bill of Materials
@@ -85,7 +87,13 @@ Power-Loss-Heat-Creep-Arrester/
 
 ### Generating Fabrication Files
 
-Ready-to-order production files are in `PowerLossHeatCreepArrester_v1.0/production/`:
+### Interactive BOM (Manual Assembly)
+
+Open `PowerLossHeatCreepArrester_v1.0/bom/manual_assembly_ibom.html` in any browser. It provides an interactive board view where you can click each component to highlight its placement — ideal for hand-soldering.
+
+### Production Files
+
+Ready-to-order files are in `PowerLossHeatCreepArrester_v1.0/production/`:
 
 | File | Description |
 |------|-------------|
