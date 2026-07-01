@@ -4027,7 +4027,7 @@
 		)
 		(uuid "ec4e9e0c-258c-4054-9434-6bffbe9d2efe")
 	)
-	(text "\n24V from the printer is passed through resistor divider \nR4:R5 to give ~7.67V to the inverting input of  \ncomparator A in the LM393 dual comparator package"
+	(text "\n24V from the printer is passed through resistor divider \nR4:R5 to give ~7.67V to the inverting input of  \ncomparator A in the LM393 dual comparator chip"
 		(exclude_from_sim no)
 		(at 205.232 67.31 0)
 		(effects
@@ -4060,6 +4060,16 @@
 			)
 		)
 		(uuid "38b4efe3-6864-4883-9ba8-2b7082c6c7cf")
+	)
+	(text "iys not possible to use a single thermistor fofr both the 3d printer and the back up\nsupply board. unless theres a well thought of 3.3v line \nsolution is to use a seperate tmtperatur emonitroing circuit with an independent themistor\n"
+		(exclude_from_sim no)
+		(at 65.532 79.248 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43affeed-924f-4e60-b80d-ef39841a0ed5")
 	)
 	(text "3pin battery terminal\n"
 		(exclude_from_sim no)
@@ -4831,7 +4841,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 97.79) (xy 273.05 97.79)
+			(xy 261.62 97.79) (xy 273.05 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5226,16 +5236,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 106.68) (xy 266.7 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0e0111f-2c97-4bc5-85f9-0baabac64e3a")
-	)
-	(wire
-		(pts
 			(xy 193.04 38.1) (xy 193.04 43.18)
 		)
 		(stroke
@@ -5619,6 +5619,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 105.41) (xy 273.05 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bfbc89-a23f-49dc-9988-7ea4af3c82d8")
+	)
+	(wire
+		(pts
 			(xy 132.08 127) (xy 180.34 127)
 		)
 		(stroke
@@ -5802,7 +5812,7 @@
 		(uuid "8ede4d4e-c656-47e0-b73b-0c18a9274859")
 	)
 	(label "thermistor input"
-		(at 273.05 100.33 180)
+		(at 273.05 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5811,7 +5821,7 @@
 		)
 		(uuid "9f2fc05b-adde-4014-88e9-29f4660fe8fe")
 	)
-	(label "indipendent_3d printer fan control input"
+	(label "independent_3d printer fan control input"
 		(at 26.67 72.39 0)
 		(effects
 			(font
@@ -6077,7 +6087,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 106.68 0)
+		(at 261.62 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6087,7 +6097,7 @@
 		(dnp no)
 		(uuid "0feb731f-ef1e-40ee-b160-a30029f70cb8")
 		(property "Reference" "#PWR020"
-			(at 266.7 113.03 0)
+			(at 261.62 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6098,7 +6108,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 109.982 0)
+			(at 261.62 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6108,7 +6118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 106.68 0)
+			(at 261.62 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6119,7 +6129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 106.68 0)
+			(at 261.62 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6130,7 +6140,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 106.68 0)
+			(at 261.62 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6915,7 +6925,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 243.332 106.426 0)
+			(at 242.316 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7815,7 +7825,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "47k"
 			(at 217.17 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8545,7 +8555,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "210k"
+		(property "Value" "52.3k"
 			(at 86.36 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8866,7 +8876,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 251.46 125.476 0)
+			(at 242.316 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9268,7 +9278,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "40.2k"
+		(property "Value" "10k"
 			(at 86.36 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10784,7 +10794,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "100k"
 			(at 35.56 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13081,7 +13091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "910K"
 			(at 217.17 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)

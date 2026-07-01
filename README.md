@@ -27,8 +27,13 @@ This circuit detects the power loss event and uses a backup energy source (e.g. 
 **Front (component side)**
 ![Board Front](docs/Screenshot%202026-06-02%20at%2018.37.28.png)
 
-**Back**
-![Board Back](docs/Screenshot%202026-06-02%20at%2018.37.43.png)
+**Back — rev_1.0 silkscreen**
+![Board Back rev_1.0](docs/Screenshot%202026-07-01%20at%2020.41.09.png)
+
+The back silkscreen includes:
+- **XundaTech / Heat Creep Arrester V1.0** — product branding
+- **QR code** — scan to open this GitHub repository directly from the physical board
+- **Connector pinout labels** (`FAN 24V`, `FAN GND`, `TO`, `GND`) — printed next to J3 for field assembly without needing a datasheet
 
 📄 Full schematic & layout documentation: [PowerLossHeatCreepArrester.pdf](docs/PowerLossHeatCreepArrester.pdf)
 
@@ -125,8 +130,29 @@ To regenerate from source in KiCad PCB Editor (`pcbnew`):
 | Supply voltage | 24 V |
 | Target load | Hotend / part-cooling fan |
 | Fan activation | Only when hotend > 50 °C (adjustable via RV1) |
+| Temperature sensing | Independent thermistor circuit (U4) — separate from printer NTC |
 | PCB layers | 2 |
 | Board thickness | 1.6 mm |
+| Solder mask clearance | 0.005 mm |
+
+---
+
+## Revision History
+
+### rev_1.0 (current branch)
+
+Key changes from initial commit:
+
+- **Independent temperature monitoring (U4 added):** A dedicated temperature sensing IC with its own thermistor was added after determining it is not feasible to share the printer's NTC across both the printer control board and this backup supply board without a carefully designed 3.3 V interface. U4 provides a clean, isolated temperature signal to LM393 comparator 2.
+- **Comparator voltage divider recalculated:** R15 `210k → 52.3k`, R16 `40.2k → 10k` — revised to correctly set the 24 V power-loss detection threshold.
+- **Hysteresis / reference network updated:** R21 `200k → 100k`, plus two comparator reference resistors adjusted (`10k → 47k` and `10k → 910k`) to match the new divider ratios.
+- **GND symbol rerouted and thermistor label repositioned** on the schematic for clarity.
+- **Net label typo fixed:** `indipendent_3d printer fan control input` → `independent_3d printer fan control input`.
+- **PCB layout updated:** U4 placed at (138.51, 88.06), net assignments updated to match schematic changes, solder mask clearance set to 0.005 mm.
+- **Back silkscreen additions:**
+  - Product branding: `XundaTech / Heat Creep Arrester V1.0`
+  - QR code linking to this GitHub repository (centre-back)
+  - Connector pinout labels beside J3: `FAN 24V`, `FAN GND`, `TO`, `GND`
 
 ---
 
