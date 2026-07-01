@@ -27,8 +27,13 @@ This circuit detects the power loss event and uses a backup energy source (e.g. 
 **Front (component side)**
 ![Board Front](docs/Screenshot%202026-06-02%20at%2018.37.28.png)
 
-**Back**
-![Board Back](docs/Screenshot%202026-06-02%20at%2018.37.43.png)
+**Back — rev_1.0 silkscreen**
+![Board Back rev_1.0](docs/Screenshot%202026-07-01%20at%2020.41.09.png)
+
+The back silkscreen includes:
+- **XundaTech / Heat Creep Arrester V1.0** — product branding
+- **QR code** — scan to open this GitHub repository directly from the physical board
+- **Connector pinout labels** (`FAN 24V`, `FAN GND`, `TO`, `GND`) — printed next to J3 for field assembly without needing a datasheet
 
 📄 Full schematic & layout documentation: [PowerLossHeatCreepArrester.pdf](docs/PowerLossHeatCreepArrester.pdf)
 
@@ -144,6 +149,10 @@ Key changes from initial commit:
 - **GND symbol rerouted and thermistor label repositioned** on the schematic for clarity.
 - **Net label typo fixed:** `indipendent_3d printer fan control input` → `independent_3d printer fan control input`.
 - **PCB layout updated:** U4 placed at (138.51, 88.06), net assignments updated to match schematic changes, solder mask clearance set to 0.005 mm.
+- **Back silkscreen additions:**
+  - Product branding: `XundaTech / Heat Creep Arrester V1.0`
+  - QR code linking to this GitHub repository (centre-back)
+  - Connector pinout labels beside J3: `FAN 24V`, `FAN GND`, `TO`, `GND`
 
 ---
 
