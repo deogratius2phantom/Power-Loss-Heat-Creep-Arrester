@@ -125,8 +125,25 @@ To regenerate from source in KiCad PCB Editor (`pcbnew`):
 | Supply voltage | 24 V |
 | Target load | Hotend / part-cooling fan |
 | Fan activation | Only when hotend > 50 °C (adjustable via RV1) |
+| Temperature sensing | Independent thermistor circuit (U4) — separate from printer NTC |
 | PCB layers | 2 |
 | Board thickness | 1.6 mm |
+| Solder mask clearance | 0.005 mm |
+
+---
+
+## Revision History
+
+### rev_1.0 (current branch)
+
+Key changes from initial commit:
+
+- **Independent temperature monitoring (U4 added):** A dedicated temperature sensing IC with its own thermistor was added after determining it is not feasible to share the printer's NTC across both the printer control board and this backup supply board without a carefully designed 3.3 V interface. U4 provides a clean, isolated temperature signal to LM393 comparator 2.
+- **Comparator voltage divider recalculated:** R15 `210k → 52.3k`, R16 `40.2k → 10k` — revised to correctly set the 24 V power-loss detection threshold.
+- **Hysteresis / reference network updated:** R21 `200k → 100k`, plus two comparator reference resistors adjusted (`10k → 47k` and `10k → 910k`) to match the new divider ratios.
+- **GND symbol rerouted and thermistor label repositioned** on the schematic for clarity.
+- **Net label typo fixed:** `indipendent_3d printer fan control input` → `independent_3d printer fan control input`.
+- **PCB layout updated:** U4 placed at (138.51, 88.06), net assignments updated to match schematic changes, solder mask clearance set to 0.005 mm.
 
 ---
 
