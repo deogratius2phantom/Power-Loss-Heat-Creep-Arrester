@@ -3458,6 +3458,720 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SMD-MOSFET-P-CH-60V-900MA-ZXMP6A13FTA_SOT-23_:SMD-MOSFET-P-CH-60V-900MA-ZXMP6A13FTA_SOT-23_"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at -3.8152 2.5435 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ZXMP6A13FTA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "SMD-MOSFET-P-CH-60V-900MA-ZXMP6A13FTA_SOT-23_:SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MOSFET P-Channel 60V 1.1A SOT23 | Diodes Inc ZXMP6A13FTA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Diodes Inc."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "SOT-23-3 Diodes Inc."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "ZXMP6A13FTA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ZXMP6A13FTA/Diodes+Inc./view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "ZXMP6A13FTA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=106187&manufacturer=Diodes Inc.&part_name=ZXMP6A13FTA&search_term=zxmp6a13fta"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ZXMP6A13FTA/Diodes+Inc./view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "SMD-MOSFET-P-CH-60V-900MA-ZXMP6A13FTA_SOT-23__0_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.905 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -0.3175 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -1.905 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -2.54) (xy -1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9525 0.3175) (xy -0.9525 -0.3175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9525 0.3175) (xy -0.508 -0.127)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9525 -0.3175) (xy -0.3175 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3175 0) (xy -0.9525 0.3175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3175 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.905)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 1.5875 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.9525 0.3175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.9525 -0.3175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.905)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9525 0.4445) (xy 1.27 0.4445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9525 -0.4445) (xy 1.5875 -0.4445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.4445) (xy 1.5875 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.4445) (xy 1.905 0.4445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.3175) (xy 1.5875 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5875 1.905) (xy 1.5875 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5875 0) (xy 1.5875 -0.4445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5875 0) (xy 1.905 0.4445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5875 0) (xy 1.905 0.3175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5875 -0.4445) (xy 0.9525 0.4445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5875 -0.4445) (xy 1.5875 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5875 -0.4445) (xy 2.2225 -0.4445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5875 -1.905) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0.4445) (xy 2.2225 0.4445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.2225 0.4445) (xy 1.5875 -0.4445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "G"
+					(at -3.4959 0 0)
+					(effects
+						(font
+							(size 0.8136 0.8136)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D"
+					(at -0.6359 2.2257 0)
+					(effects
+						(font
+							(size 0.814 0.814)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "S"
+					(at -0.6359 -3.1795 0)
+					(effects
+						(font
+							(size 0.814 0.814)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:BSS138"
 			(pin_names
 				(offset 0)
@@ -4063,13 +4777,26 @@
 	)
 	(text "iys not possible to use a single thermistor fofr both the 3d printer and the back up\nsupply board. unless theres a well thought of 3.3v line \nsolution is to use a seperate tmtperatur emonitroing circuit with an independent themistor\n"
 		(exclude_from_sim no)
-		(at 65.532 79.248 0)
+		(at 71.12 64.008 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "43affeed-924f-4e60-b80d-ef39841a0ed5")
+	)
+	(text "add reverse protection \non the power input side, \nas well ass the battery side\n"
+		(exclude_from_sim no)
+		(at 29.972 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "5bb2a217-a33c-4951-8b91-66b269a2f955")
 	)
 	(text "3pin battery terminal\n"
 		(exclude_from_sim no)
@@ -4135,19 +4862,6 @@
 		)
 		(uuid "8d09210a-1632-4c42-83c5-5bdbbe5ab873")
 	)
-	(text "replace this with \nmp154EN buck coverter\n"
-		(exclude_from_sim no)
-		(at 53.086 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "9e4ddf88-1b93-4f67-9d1b-e90842a58588")
-	)
 	(text "12V_Boosted is\npassed through \ndivider R3:R2 \ngiving ~6V to\nnon_inverting\ninput of\ncomparator A\n\n\n"
 		(exclude_from_sim no)
 		(at 242.824 38.862 0)
@@ -4179,28 +4893,6 @@
 			)
 		)
 		(uuid "e49f5e56-f925-4189-9033-2893216213e2")
-	)
-	(text "REVERSE POLARITY PROTECTION - 24V INPUT:\nUse P-ch MOSFET (ZXMP6A13FTA, SOT-23) in series on 24V rail.\nConnect: Source=24V_IN, Drain=24V_rail, Gate=GND via 10k resistor.\nVgs=-24V when active -> fully enhanced, Rds(on)<400mohm.\nVoltage drop ~0.2V @ 0.5A. Power dissipation ~100mW. Safe."
-		(exclude_from_sim no)
-		(at 18.034 27.432 0)
-		(effects
-			(font
-				(size 1.0 1.0)
-				(color 0 0 128 1)
-			)
-		)
-		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567801")
-	)
-	(text "REVERSE POLARITY PROTECTION - BATTERY SIDE:\nDo NOT use ZXMP6A13FTA here: Vgs=-3.7V gives Rds(on)~900mohm;\nexceeds Id=1.1A limit at fan loads >130mA @ 24V.\nUse AO3401A instead (SOT-23, same footprint):\nRds(on)=50mohm @ Vgs=-4.5V, Id=4A, optimised for low Vgs drive."
-		(exclude_from_sim no)
-		(at 120.65 27.432 0)
-		(effects
-			(font
-				(size 1.0 1.0)
-				(color 128 0 0 1)
-			)
-		)
-		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567802")
 	)
 	(junction
 		(at 227.33 72.39)
@@ -4237,6 +4929,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11730a78-4844-41de-8397-07ae01ef4c24")
+	)
+	(junction
+		(at 165.1 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "199941a0-b28a-4e9d-865e-16fbc7955a70")
 	)
 	(junction
 		(at 116.84 21.59)
@@ -4431,6 +5129,12 @@
 		(uuid "d295aab7-52dd-4fbb-8567-5fcc8be52be6")
 	)
 	(junction
+		(at 22.86 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6bd54fd-34cc-4213-80a0-ae6346c0bfb7")
+	)
+	(junction
 		(at 93.98 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4556,6 +5260,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "0e16932d-9f04-4549-bf2a-47a22b63c9ba")
+	)
+	(wire
+		(pts
+			(xy 165.1 127) (xy 180.34 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f05ab1a-64cc-46fd-bcf9-502289760194")
 	)
 	(wire
 		(pts
@@ -4695,6 +5409,17 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 72.39) (xy 132.08 72.39)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(uuid "2949c352-cbed-4791-88ba-7ea465f51b81")
+	)
+	(wire
+		(pts
 			(xy 111.76 21.59) (xy 116.84 21.59)
 		)
 		(stroke
@@ -4780,7 +5505,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 124.46) (xy 152.4 124.46)
+			(xy 165.1 120.65) (xy 168.91 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4873,7 +5598,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 72.39) (xy 132.08 72.39)
+			(xy 15.24 72.39) (xy 22.86 72.39)
 		)
 		(stroke
 			(width 0.508)
@@ -4978,16 +5703,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 129.54) (xy 152.4 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b30d932-c7fb-432a-8e96-e279b39d9784")
-	)
-	(wire
-		(pts
 			(xy 128.27 29.21) (xy 128.27 21.59)
 		)
 		(stroke
@@ -4996,6 +5711,17 @@
 			(color 255 153 0 1)
 		)
 		(uuid "6e79b105-571a-407f-8741-f6d6d5067406")
+	)
+	(wire
+		(pts
+			(xy 22.86 72.39) (xy 22.86 83.82)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(uuid "71290ca8-d558-4caa-9578-a6f74803ef97")
 	)
 	(wire
 		(pts
@@ -5285,6 +6011,16 @@
 			(type default)
 		)
 		(uuid "a89ace0c-2f02-4049-88b6-9dfa8df932f0")
+	)
+	(wire
+		(pts
+			(xy 134.62 129.54) (xy 132.08 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91b15df-96bf-486c-b190-1aba405841b2")
 	)
 	(wire
 		(pts
@@ -5619,6 +6355,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 124.46) (xy 132.08 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2bffaff-2210-4294-b80b-a2ea9ed38c88")
+	)
+	(wire
+		(pts
 			(xy 251.46 29.21) (xy 251.46 72.39)
 		)
 		(stroke
@@ -5651,7 +6397,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 127) (xy 180.34 127)
+			(xy 132.08 127) (xy 165.1 127)
 		)
 		(stroke
 			(width 0)
@@ -5700,6 +6446,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "ef970084-5d96-4275-904b-38914e77662d")
+	)
+	(wire
+		(pts
+			(xy 29.21 93.98) (xy 22.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c1e62f-c04c-4c72-a0f6-c9062cd72cc4")
 	)
 	(wire
 		(pts
@@ -5761,6 +6517,16 @@
 		)
 		(uuid "fbcdb276-e4fc-4278-bd53-79ee74fa97be")
 	)
+	(wire
+		(pts
+			(xy 165.1 120.65) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0d6cae-5822-4908-a0c8-57cf5c1136d5")
+	)
 	(polyline
 		(pts
 			(xy 163.195 11.43) (xy 163.195 62.23)
@@ -5792,6 +6558,16 @@
 			(justify left bottom)
 		)
 		(uuid "37a29d4a-51dd-4f49-94c4-c03ca69f2e1c")
+	)
+	(label "12V_Boosted"
+		(at 134.62 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46e41c52-e054-48a2-91a1-b058492d0d0a")
 	)
 	(label "thermistor input"
 		(at 134.62 127 0)
@@ -5844,7 +6620,7 @@
 		(uuid "9f2fc05b-adde-4014-88e9-29f4660fe8fe")
 	)
 	(label "independent_3d printer fan control input"
-		(at 26.67 72.39 0)
+		(at 29.21 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6837,6 +7613,279 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 165.1 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27a6c0f2-eefe-4246-8177-8577346272ac")
+		(property "Reference" "#PWR018"
+			(at 165.1 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 137.922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "baccbf64-aed1-4bb5-9b65-bee9b4372415")
+		)
+		(instances
+			(project "PowerLossHeatCreepArrester_v1.0"
+				(path "/64ecf017-4b02-4fcc-8dc2-ec7a166fb525"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMD-MOSFET-P-CH-60V-900MA-ZXMP6A13FTA_SOT-23_:SMD-MOSFET-P-CH-60V-900MA-ZXMP6A13FTA_SOT-23_")
+		(at 22.86 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2867e5a4-f102-4ca7-b0e5-07be563d21e4")
+		(property "Reference" "Q3"
+			(at 26.67 88.9122 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ZXMP6A13FTA"
+			(at 22.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "SMD-MOSFET-P-CH-60V-900MA-ZXMP6A13FTA_SOT-23_:SOT-23"
+			(at 22.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MOSFET P-Channel 60V 1.1A SOT23 | Diodes Inc ZXMP6A13FTA"
+			(at 22.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Diodes Inc."
+			(at 22.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOT-23-3 Diodes Inc."
+			(at 22.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "ZXMP6A13FTA"
+			(at 22.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 22.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ZXMP6A13FTA/Diodes+Inc./view-part/?ref=snap"
+			(at 22.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "ZXMP6A13FTA"
+			(at 22.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=106187&manufacturer=Diodes Inc.&part_name=ZXMP6A13FTA&search_term=zxmp6a13fta"
+			(at 22.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 22.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ZXMP6A13FTA/Diodes+Inc./view-part/?ref=eda"
+			(at 22.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "f29c685b-daf3-40b4-be68-c1a56739ca47")
+		)
+		(pin "2"
+			(uuid "3a48e33b-414d-447c-9bb0-2acfa4d72226")
+		)
+		(pin "3"
+			(uuid "3e1c40dc-ae72-4ad4-a625-d9f9be2a3d94")
+		)
+		(instances
+			(project "PowerLossHeatCreepArrester_v1.0"
+				(path "/64ecf017-4b02-4fcc-8dc2-ec7a166fb525"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 278.13 97.79 180)
 		(unit 1)
@@ -7006,6 +8055,83 @@
 			(project "PowerLossHeatCreepArrester_v1.0"
 				(path "/64ecf017-4b02-4fcc-8dc2-ec7a166fb525"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2c8950cf-9676-428c-9a81-764e0dd0168e")
+		(property "Reference" "#PWR024"
+			(at 151.13 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 149.352 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16ceb850-0bce-414f-89ed-78ef602c8d99")
+		)
+		(instances
+			(project "PowerLossHeatCreepArrester_v1.0"
+				(path "/64ecf017-4b02-4fcc-8dc2-ec7a166fb525"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8799,83 +9925,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 132.08 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5b688d08-ee3a-48df-bfba-6dc4239bf9fd")
-		(property "Reference" "#PWR08"
-			(at 132.08 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 132.842 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95ba9619-6dc4-460c-b9b0-09fc4863d26b")
-		)
-		(instances
-			(project "PowerLossHeatCreepArrester_v1.0"
-				(path "/64ecf017-4b02-4fcc-8dc2-ec7a166fb525"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 248.92 121.92 0)
 		(unit 1)
@@ -9279,6 +10328,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 151.13 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d190f6d-716b-4ce7-b4c2-ed8d13a50133")
+		(property "Reference" "GND1"
+			(at 150.876 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_Alt"
+			(at 154.686 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 156.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 151.13 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "172c5020-1696-4331-b9c7-0a128af987ed")
+		)
+		(instances
+			(project "PowerLossHeatCreepArrester_v1.0"
+				(path "/64ecf017-4b02-4fcc-8dc2-ec7a166fb525"
+					(reference "GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 85.09 36.83 0)
 		(unit 1)
@@ -9442,7 +10569,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 129.54 0)
+		(at 168.91 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9452,7 +10579,7 @@
 		(dnp no)
 		(uuid "8f0fe7d3-2997-4622-9fa0-4e2e73b48574")
 		(property "Reference" "#PWR09"
-			(at 152.4 135.89 0)
+			(at 168.91 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9463,7 +10590,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 132.842 0)
+			(at 168.91 123.952 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9473,7 +10600,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 129.54 0)
+			(at 168.91 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9484,7 +10611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 129.54 0)
+			(at 168.91 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9495,7 +10622,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 129.54 0)
+			(at 168.91 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10717,6 +11844,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 17.78 92.71 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bee54e65-db43-4694-9c0f-46e70d38a6ef")
+		(property "Reference" "R23"
+			(at 16.51 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 16.51 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 19.558 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 17.78 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a19c4fc3-20f6-47d1-9266-d11c0e168fe5")
+		)
+		(pin "2"
+			(uuid "f10d2d88-1a4c-480a-9b29-b12df800300e")
+		)
+		(instances
+			(project "PowerLossHeatCreepArrester_v1.0"
+				(path "/64ecf017-4b02-4fcc-8dc2-ec7a166fb525"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Alt")
 		(at 256.54 92.71 0)
 		(unit 1)
@@ -10789,6 +11997,84 @@
 			(project "PowerLossHeatCreepArrester_v1.0"
 				(path "/64ecf017-4b02-4fcc-8dc2-ec7a166fb525"
 					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 111.76 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c239c968-b44c-4597-b3ac-56aa6dceb54e")
+		(property "Reference" "5V1"
+			(at 111.506 19.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_Alt"
+			(at 115.316 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 116.84 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 111.76 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44a9a8ed-8f5b-402e-9d98-ae6280522862")
+		)
+		(instances
+			(project "PowerLossHeatCreepArrester_v1.0"
+				(path "/64ecf017-4b02-4fcc-8dc2-ec7a166fb525"
+					(reference "5V1")
 					(unit 1)
 				)
 			)
@@ -12166,6 +13452,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 17.78 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1af41be-48b3-4ee0-b0a6-c8b25ed5083e")
+		(property "Reference" "#PWR032"
+			(at 17.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.78 99.822 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 17.78 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4dec6c13-8162-4db3-948f-cbadf91969b7")
+		)
+		(instances
+			(project "PowerLossHeatCreepArrester_v1.0"
+				(path "/64ecf017-4b02-4fcc-8dc2-ec7a166fb525"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 27.94 34.29 0)
 		(unit 1)
@@ -12412,6 +13775,87 @@
 			(project "PowerLossHeatCreepArrester_v1.0"
 				(path "/64ecf017-4b02-4fcc-8dc2-ec7a166fb525"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb475441-52fb-47df-87d7-8acd6ba3f231")
+		(property "Reference" "R22"
+			(at 166.37 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 166.37 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 163.322 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f6ec026-583b-4c2b-a1bf-993b3d183419")
+		)
+		(pin "2"
+			(uuid "3de7313d-6c15-408b-b7f1-9056b216b767")
+		)
+		(instances
+			(project "PowerLossHeatCreepArrester_v1.0"
+				(path "/64ecf017-4b02-4fcc-8dc2-ec7a166fb525"
+					(reference "R22")
 					(unit 1)
 				)
 			)
