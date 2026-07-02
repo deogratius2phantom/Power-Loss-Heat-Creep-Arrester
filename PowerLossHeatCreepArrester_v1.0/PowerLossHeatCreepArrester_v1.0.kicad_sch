@@ -4180,6 +4180,28 @@
 		)
 		(uuid "e49f5e56-f925-4189-9033-2893216213e2")
 	)
+	(text "REVERSE POLARITY PROTECTION - 24V INPUT:\nUse P-ch MOSFET (ZXMP6A13FTA, SOT-23) in series on 24V rail.\nConnect: Source=24V_IN, Drain=24V_rail, Gate=GND via 10k resistor.\nVgs=-24V when active -> fully enhanced, Rds(on)<400mohm.\nVoltage drop ~0.2V @ 0.5A. Power dissipation ~100mW. Safe."
+		(exclude_from_sim no)
+		(at 18.034 27.432 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+				(color 0 0 128 1)
+			)
+		)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567801")
+	)
+	(text "REVERSE POLARITY PROTECTION - BATTERY SIDE:\nDo NOT use ZXMP6A13FTA here: Vgs=-3.7V gives Rds(on)~900mohm;\nexceeds Id=1.1A limit at fan loads >130mA @ 24V.\nUse AO3401A instead (SOT-23, same footprint):\nRds(on)=50mohm @ Vgs=-4.5V, Id=4A, optimised for low Vgs drive."
+		(exclude_from_sim no)
+		(at 120.65 27.432 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+				(color 128 0 0 1)
+			)
+		)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567802")
+	)
 	(junction
 		(at 227.33 72.39)
 		(diameter 0)
